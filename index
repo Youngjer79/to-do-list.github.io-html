@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>To-Do List</title>
+	<link rel="stylesheet" href="assets/css/todo.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+	<div id="container">
+		<h1>To-Do List <i class="fas fa-plus"></i></h1>
+		<input type="text" placeholder="Add New To-Do">
+		<ul>
+			<li><span><i class="fa fa-trash-alt"></i></span> Wash Face</li>
+			<li><span><i class="fa fa-trash-alt"></i></span> Brush Teeth</li>
+			<li> <span><i class="fa fa-trash-alt"></i></span> Go to gym for hr</li>
+			<li> <span><i class="fa fa-trash-alt"></i></span> Have breakfast</li>
+			<li> <span><i class="fa fa-trash-alt"></i></span> Shower</li>
+			<li> <span><i class="fa fa-trash-alt"></i></span> Do some coding &/or some reading for 1hr+</li>
+			<li> <span><i class="fa fa-trash-alt"></i></span> Get dressed for work</li>
+		</ul>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/todos.js"></script>
+</body>
+</html>
